@@ -8,9 +8,11 @@ body, html {
 .logo-img{
     width:60px;
     border-radius: 25px;
+     padding-top: 9px;
 }
 .menu-logo{
     width:45px;
+    margin-right: 20px;
    
 }
 
