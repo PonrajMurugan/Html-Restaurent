@@ -306,6 +306,7 @@ footer {
 
     nav .nav-links.show {
         display: flex;
+         height: 30vh;
     }
 
     nav .nav-toggle {
