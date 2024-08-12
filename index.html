@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="container">
+                <a href="#home" class="logo"> <img src="Assets/Cooking.png" class="logo-img" alt="logo"></a>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-toggle" id="nav-toggle">
+                    <img class="menu-logo" src="Assets/menu.png" alt="logo" >
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Delicious Restaurant</h1>
+                <p>For the love of delicious food.</p> <br>
+                <a href="#menu" class="btn">View Our Menu</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" style="background-color: antiquewhite;">
+        <div class="container">
+            <h2 style="text-align: center; color: #FF4500; text-shadow: 1px 1px 2px #000000;">ABOUT US </h2>
+            <h2 style="text-align: center; color: #FF4500; text-shadow: 1px 1px 2px #000000;">Why Choose Our Restaurant</h2>
+            <hr style="border: none; border-top: 3px solid #FF4500; width: 50%; margin: 30px auto;">
+                                     
+            <div class="about-content">
+                <img src="Assets/gallery-1.jpg" alt="Restaurant Interior">
+                <p style="text-align: center;"><b><i>A restaurant is a business that prepares and serves food and drinks to customers.Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants.</i></b></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" style="background-color: antiquewhite;">
+        <div class="container">
+            <h2 style="text-align: center; color: #FF4500; text-shadow: 1px 1px 2px #000000;">OUR MENU</h2>
+            <hr style="border: none; border-top: 3px solid #FF4500; width: 50%; margin: 30px auto;">
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img  src="Assets/Briyani 2.jpg" alt="Dish 1">
+                    <h3>Chettinad Biryani</h3>
+                    <p> The rich and varied biryani flavours make it so appealing.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Assets/Pizza.jpg" alt="Dish 2">
+                    <h3>Chicken Pizza</h3>
+                    <p>Cheese is fatty, meat toppings tend to be rich, and the sauce is sweet Pizza.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Assets/tandoori.jpg" alt="Dish 3">
+                    <h3>Chicken Tandoori</h3>
+                    <p>Tandoori tastes spicy and flavorful with a slightly smoky taste due to the high heat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" style="background-color: antiquewhite;">
+        <div class="container">
+            <h2 style="text-align: center; color: #FF4500; text-shadow: 1px 1px 2px #000000;">GALLERY</h2>
+            <hr style="border: none; border-top: 3px solid #FF4500; width: 50%; margin: 30px auto;">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Assets/burger.jpg" alt="Gallery 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="Assets/dishes.jpg" alt="Gallery 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="Assets/non-veg.jpg" alt="Gallery 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background-color: antiquewhite;" >
+        <div class="container">
+            <h2 style="text-align: center; color: #FF4500; text-shadow: 1px 1px 2px #000000;">CONTACT US</h2>
+            <hr style="border: none; border-top: 3px solid #FF4500; width: 50%; margin: 30px auto;">
+            <div class="contact-info">
+                <p>Address : Tenkasi</p>
+                <p>Phone : +91 8681857753</p>
+                <p>Email : ponraj@gmail.com</p>
+            </div>
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-1">Send Message</button>                    
+                </form>
+             </div>
+             <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31528.70231530752!2d77.29387874218197!3d8.964058130046729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0429c15ac547f7%3A0x9a707276cd8ae327!2sTenkasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1723438937759!5m2!1sen!2sin" 
+                 width="600" 
+                 height="450" 
+                 style="border:0;" 
+                 allowfullscreen="" 
+                 loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade"></iframe>              
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Delicious Restaurant. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#" target="_blank">
+                    <img src="Assets/facebook.png" alt="Facebook">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="Assets/twitter.png" alt="Twitter">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="Assets/instagram.png" alt="Instagram">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="Assets/Linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+               document.getElementById('nav-toggle').addEventListener('click', function() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
